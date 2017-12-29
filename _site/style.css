@@ -184,8 +184,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
+    padding: 10px 5px;
+    display: block;
+    margin: auto;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -296,18 +299,18 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 13px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 13px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
+    font-size: 40px;
+    font-weight: 450;
+    line-height: 40px;
 }
 
 @media(min-width:768px) {
@@ -317,20 +320,16 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
+        font-size: 20px;
+        line-height: 20px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        font-size: 65px;
+        line-height: 65px;
     }
 }
 
@@ -355,12 +354,12 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 80px 0;
     }
 }
 
 .service-heading {
-    margin: 15px 0;
+    margin: 5px 0;
     text-transform: none;
 }
 
