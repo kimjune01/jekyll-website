@@ -212,7 +212,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 12px;
     letter-spacing: 1px;
     color: #fff;
     -webkit-transition: all ease .35s;
@@ -661,8 +662,9 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+
 .team-member p.description {
-  min-height: 200px;
+  min-height: 200px; /* this value must be changed to fit the longest description */
   margin-bottom: 1px;
 }
 

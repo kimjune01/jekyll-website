@@ -6,6 +6,7 @@ description: "Write an awesome description for your new site here. You can edit 
 
 
 # Team names, titles and social links
+# a change in the length of the longest description affects /agency.css .team-member p.description
 people:
 - name: Michael Yagudaev
   pic: 1
