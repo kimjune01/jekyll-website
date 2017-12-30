@@ -1,51 +1,81 @@
 
 # Site settings
 title: Nano 3 Labs
-email: your-email@domain.com
+email: hello@nano3labs.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Michael Yagudaev
   pic: 1
-  position: Lead Designer
+  position: CEO & Founder
   social:
+    - title: globe
+      url: http://yagudaev.com/
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: https://twitter.com/yagudaev
+    - title: github
+      url: https://github.com/yagudaev
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/yagudaev
+  description: In 2007 a highly ranked code ninja was sent to Winnipeg for a bug he did not commit. In 2012 he promptly escaped a frozen prison and now lives in the Vancouver underground. Today still wanted by recruiters he survives as a User Experience dojo. So if you have a problem, if no one else can help, and you can find him, maybe you can hire the Nano 3 Labs Team.
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: June Kim
+  pic: 2
+  position: Sr. Mobile/iOS Developer
   social:
+    - title: globe
+      url: http://www.june.kim
+    - title: github
+      url: https://github.com/kimjune01
+    - title: linkedin
+      url: https://www.linkedin.com/in/kimjune01
+  description: June is a mobile craftsman, he enjoys his user interfaces clean, fast, bug-free and with a sprinkle of animations. When not coding he spends his day making all sorts of leather items like a modern-day Indiana Jones (seriously, check his website).
+
+- name: Matt Vague
+  pic: 3
+  position: Sr. Web/Mobile Developer
+  social:
+    - title: globe
+      url: http://mattvague.com/
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://twitter.com/mattvague
+    - title: github
+      url: https://github.com/mattvague
+  description: Matt is talented web and mobile developer with special love for user interaction and creating products users love. When not coding he spends his days lifting weights and learning about physics (like gravity).
+
+- name: Tobias Noiges
+  pic: 4
+  position: Sr. Web/Mobile Developer
+  social:
+    - title: globe
+      url: https://noiges.github.io/
+    - title: twitter
+      url: https://twitter.com/noiges_
+    - title: github
+      url: https://github.com/noiges
+    - title: linkedin
+      url: https://www.linkedin.com/in/noiges/
+  description: Tobi is a master of details, no bug or semi-colon escapes his fierce stare. He likes things clean, simple and beautiful from the code to the user interface.
+
+- name: Albert Law
+  pic: 5
+  position: Graphic Designer
+  social:
+    - title: globe
+      url: http://albertlaw.ca/
+    - title: twitter
+      url: https://twitter.com/_albertlaw
+    - title: linkedin
+      url: https://www.linkedin.com/in/albertlaw/
+  description: Albert is an arts master mind with military precision he crafts beautiful user interfaces in record time. He also loves to shoot, both photographs and weapons. So remember to stay on his good side, behind the barrel.
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket

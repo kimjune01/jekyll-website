@@ -650,7 +650,7 @@ section h3.section-subheading {
 }
 
 .team-member {
-    margin-bottom: 50px;
+    margin-bottom: 2px;
     text-align: center;
 }
 
@@ -660,13 +660,18 @@ section h3.section-subheading {
 }
 
 .team-member h4 {
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 0;
     text-transform: none;
 }
 
 .team-member p {
     margin-top: 0;
+}
+
+.team-member p.description {
+  min-height: 200px;
+  margin-bottom: 1px;
 }
 
 aside.clients img {
@@ -764,14 +769,13 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 30px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -780,7 +784,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    opacity: 0.3
 }
 
 .btn:focus,
